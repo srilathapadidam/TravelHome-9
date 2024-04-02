@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-9travel</title>
+
+    <!-- Stylesheet  -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Font Asw-some  -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    
+</head>
+<body>
+<section class="container">
+    <div class="header-container">
+         <!-- navbar --><!-- hero-section-->
+        <div class="nav">
+            <div class="menubar">
+                <div class="menu-left">
+                    <img src="./assets/viator-logo.png" alt="logo">
+                    <p>Home</p>
+                </div>
+                <div class="nav-links">
+                    <a href="#Tour">Tour</a>
+                    <a href="#Destination">Destination</a>
+                    <a href="#Activities">Activities</a>
+                    <a href="#Pages">Pages</a>
+                    <a href="#Contact">Contact</a>
+                </div>
+            </div>
+            <div class="menubar">
+                <div class="menu-right">
+                    <a href="#USD">USD</a>
+                    <a href="#Sign-up">Sign Up</a>
+                    <div class="box1">Log in</div>
+                    <div class="box"></div>  
+                </div>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+        <div class="hero-main">
+            <div class="content-heading">
+                <p>Starting at $978</p>
+                <h1>Iceland's legendary<span></span>Golden Circle</h1>
+                <p>Enjoy a full-day bus tour of Iceland's legendary Golden Circle.<span></span>
+                    Soak in the warm thermal waters of the Secret Lagoon.</p>
+                <div class="box2">View Tour</div>
+            </div>
+            <div class="img">
+                <img src="./assets/root1.png" alt="">
+            </div>
+        </div>
+    </div>
+        
+    <!---fetch destinations images--->
+    <section class="TD">
+        <div class="trending-pictures">
+            <div class="TP-heading">
+                <h2>Trending destinations</h2>
+                <button class="next" id="nextBtn"><a href="index1.html">Next</a></button>
+            </div>
+            <div class="TP-cards">
+                <div class="TPC-item1">
+                    <div class="TPC-items">
+                        <div class="TP-img">
+                            <img src="./assets/image (7).png" alt="#">
+                        </div>
+                        <div class="NT">
+                            <h6>Paris</h6><br>
+                            <p>100+ Tours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="TPC-item2">
+                    <div class="TPC-items">
+                        <div class="TP-img">
+                            <img src="./assets/image (8).png" alt="">
+                        </div>
+                        <div class="NT">
+                            <h6>Singapore</h6><br>
+                            <p>300+ Tours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="TPC-item3">
+                    <div class="TPC-items">
+                        <div class="TP-img">
+                            <img src="./assets/image (9).png" alt="">
+                        </div>
+                        <div class="NT">
+                            <h6>Rome</h6><br>
+                            <p>400+ Tours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="TPC-item4">
+                    <div class="TPC-items">
+                        <div class="TP-img">
+                            <img src="./assets/image (10).png" alt="">
+                        </div>
+                        <div class="NT">
+                            <h6>Bangkok</h6><br>
+                            <p>100+ Tours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="TPC-item5">
+                    <div class="TPC-items">
+                        <div class="TP-img">
+                            <img src="./assets/image (6).png" alt="">
+                        </div>
+                        <div class="NT">
+                            <h6>Bali</h6><br>
+                            <p>600+ Tours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="TPC-item6">
+                    <div class="TPC-items">
+                        <div class="TP-img">
+                            <img src="./assets/image (5).png" alt="">
+                        </div>
+                        <div class="NT">
+                            <h6>Phuket</h6><br>
+                            <p>200+ Tours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="TPC-item7">
+                    <div class="TPC-items">
+                        <div class="TP-img">
+                            <img src="./assets/image (4).png" alt="">
+                        </div>
+                        <div class="NT"> 
+                            <h6>Tokyo</h6><br>
+                            <p>700+ Tours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="TPC-item8">
+                    <div class="TPC-items">
+                        <div class="TP-img">
+                            <img src="./assets/image (1).png" alt="">
+                        </div>
+                        <div class="NT">
+                            <h6>Cappadocia</h6><br>
+                            <p>900+ Tours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>        
+
+    <!--  Featured images minimax-->
+    <section class="featured-pictures">
+        <div class="featured">
+            <h1 class="featured-heading">Featured Trips</h1>
+            <div class="featured-cards">
+                <div class="feat-cards-item">
+                    <img src="./assets/Link (9).png" alt="#" class="image1" onclick="change(this)">
+                    <div class="feat-cards-items">
+                        <P class="days">4 days</P>
+                        <div class="msg">
+                            <p class="location">Paris,France</p>
+                            <h4 class="area">Centipede Tour-Guided Arizona<span></span>Desert Tour by ATV</h4>
+                            <p class="rating">4.8(243)</p>
+                        </div>
+                        <div class="fc">
+                            <p class="fr">form</p>
+                            <h3 class="cost">$189.25</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="feat-cards-item">
+                    <img src="./assets/Link (10).png" alt="#" class="image1" onclick="change(this)">
+                    <div class="feat-cards-items">
+                        <P class="days">4 days</P>
+                        <div class="msg">
+                            <p class="location">New York,USA</p>
+                            <h4 class="area">Molokini and Turtle Town Snorkeling<span></span>Adventure Aboard</h4>
+                            <p class="rating">4.8(243)</p>
+                        </div>
+                        <div class="fc">
+                            <p class="fr">form</p>
+                            <h3 class="cost">$225</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="feat-cards-item">
+                    <img src="./assets/Link (11).png" alt="#" class="image1" onclick="change(this)">
+                    <div class="feat-cards-items">
+                        <P class="days">4 days</P>
+                        <div class="msg">
+                            <p class="location">London,UK</p>
+                            <h4 class="area">Westminster Walking Tour & <span></span>Westminster Abbey Entry</h4>
+                            <p class="rating">4.8(243)</p>
+                        </div>
+                        <div class="fc">
+                            <p class="fr">form</p>
+                            <h3 class="cost">$943</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="feat-cards-item">
+                    <img src="./assets/Link (1).png" alt="#" class="image1" onclick="change(this)">
+                    <div class="feat-cards-items">
+                        <P class="days">4 days</P>
+                        <div class="msg">
+                            <p class="location">New York,USA</p>
+                            <h4 class="area">All Inclusive Ultimate Circle Island<span></span>Day Tour with Lunch</h4>
+                            <p class="rating">4.8(243)</p>
+                        </div>
+                        <div class="fc">
+                            <p class="fr">form</p>
+                            <h3 class="cost">$189.25</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- choosetours -->
+    <section class="choosetours">
+        <div class="choose-img">
+            <img src="./assets/image (01).png" alt="#">
+        </div>
+        <div class="WCT">
+            <div class="choose-heading">
+                <h2>Why choose Tourz</h2><br>
+                <p>Most viewed and all-time top-selling services</p>
+            </div>
+            <div class="CCards">
+                <div class="choose-card1">
+                    <img src="./assets/ticket.svg.png" width=50px; height=50px; alt="#">
+                    <h3>Ultimate flexibility</h3><br>
+                    <p>You're in control, with free<span></span>cancellation and payment.</p>  
+                </div>
+                <div class="choose-card1">
+                    <img src="./assets/hot-air-balloon.svg.png" width=50px; height=50px; alt="#">
+                    <h3>Memorable experiences</h3><br>
+                    <p>Browse and book tours and <span></span>Activities so incredible.</p>  
+                </div>
+                <div class="choose-card1">
+                    <img src="./assets/diamond.svg.png" width=50px; height=50px; alt="#">
+                    <h3>Quality at our core</h3><br>
+                    <p>High quality standards.Millions of<span></span>reviews</p>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- popular -->
+    <section class="popular">
+        <div class="PH">
+            <div class="popular-heading">
+                <h2>popular things to do</h2>
+                <button class="next" id="nextBtn"><a href="./index1.html">Next</a></button>
+            </div>
+            <div class="PC">
+                <div class="PCS">
+                    <img src="./assets/image (03).png">
+                    <h6>City Tours</h6><br>
+                    <P>100+ Tours</P>
+                </div>
+                <div class="PCS">
+                    <img src="./assets/image (04).png">
+                    <h6>Cultural Tours</h6><br>
+                    <P>100+ Tours</P>
+                </div>
+                <div class="PCS">
+                    <img src="./assets/image (05).png">
+                    <h6>Day Cruises</h6><br>
+                    <P>100+ Tours</P>
+                </div>
+                <div class="PCS">
+                    <img src="./assets/image (06).png">
+                    <h6>Bus Tours </h6><br>
+                    <P>100+ Tours</P>
+                </div>
+                <div class="PCS">
+                    <img src="./assets/image (07).png">
+                    <h6>Beach Tours</h6><br>
+                    <P>100+ Tours</P>
+                </div>
+                <div class="PCS">
+                    <img src="./assets/image (08).png">
+                    <h6>Food Tours</h6><br>
+                    <P>100+ Tours</P>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--fetch-products--with-nextButton-->
+    
+    
+    <!--Footprints -->
+    <section class="ourfootprint"> 
+        <div class="footprint-text">
+            <h3>Our Footprints</h3>
+        </div>
+        <div class="ouritems">
+          <div class="ouritems1">
+            <img src="./assets/1.svg.png" width=50px; height=50px; alt="#">
+              <h2>932M</h2>
+              <p>Total Donations</p>
+          </div>
+          <div class="ouritems1">
+            <img src="./assets/2.svg.png" width=50px; height=50px; alt="#">
+              <h2>24M</h2>
+              <p>Campaigns Closed</p>
+          </div>
+          <div class="ouritems1">
+            <img src="./assets/3.svg.png" width=50px; height=50px;  alt="#">
+              <h2>10M</h2>
+              <p>Happy People</p>
+          </div>
+          <div class="ouritems1">
+            <img src="./assets/4.svg.png" width=50px; height=50px; alt="#">
+              <h2>65M</h2>
+              <P>Our Volunteers</P>
+          </div>
+        </div>
+    </section>
+
+    <!-- best-swiper -->
+    <section class="best">
+        <h2>Best of <span>New York</span></h2>
+        <div class="best-cards">
+            <div class="CC">
+            <img src="/assets/image (11).png" alt="#">
+                <div class="CD">
+                <div class="CDT">
+                    <div class="box4"></div>
+                    <p class="A"> New York, USA</p>
+                    <h6 class="T">Molokini and Turtle Town<span></span>
+                        Snorkeling Adventure Aboard</h6>
+                        <p class="R">4.8 (243)</p>
+                </div>
+                <hr>
+                <div class="CN">
+                    <p class="D">4 days</p>
+                    <p class="F">From <span>$225</span></p>
+                    <!-- <h6>$225</h6> -->
+                </div>
+                </div>
+            </div>
+            <div class="CC">
+                <img src="./assets/image (12).png" alt="#">
+                  <div class="CD">
+                    <div class="CDT">
+                        <div class="box4"></div>
+                      <p class="A"> New York, USA</p>
+                      <h6 class="T">All Inclusive Ultimate Circle Island<span></span>
+                        Day Tour with Lunch</h6>
+                          <p class="R">4.8 (243)</p>
+                    </div>
+                    <hr>
+                    <div class="CN">
+                      <p class="D">4 days</p>
+                      <p class="F">From <span>$771</span></p>
+                      <!-- <h6>$771</h6> -->
+                    </div>
+            </div>
+            </div>
+            <div class="CC">
+                <img src="./assets/image (13).png" alt="#">
+                <div class="CD">
+                    <div class="CDT">
+                        <div class="box4"></div>
+                    <p class="A"> New York, USA</p>
+                    <h6 class="T">Clear Kayak Tour of Shell Key<span></span>
+                        Preserve and Tampa Bay Area</h6>
+                        <p class="R">4.8 (243)</p>
+                    </div>
+                    <hr>
+                    <div class="CN">
+                    <p class="D">4 days</p>
+                    <p class="F">From <span>$225</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="CC">
+                <img src="./assets/image (14).png" alt="#">
+                <div class="CD">
+                    <div class="CDT">
+                        <div class="box4"></div>
+                        <p class="A"> New York, USA</p>
+                        <h6 class="T1">Mauna Kea Summit Sunset and<span></span>
+                        Stars Free Astro Photos Hilo Kona<span></span>
+                        Waikoloa Pick Up</h6>
+                        <p class="R">4.8 (243)</p>
+                    </div>
+                    <hr>
+                    <div class="CN">
+                        <p class="D">4 days</p>
+                        <p class="F">From <span>$771</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ticket-data on click -->
+
+    <div class="Ticket-Booking">
+        <a href="index2.html">Book Your Ticket Here</a>
+    </div>
+        
+    <!-- WTS-section -->
+    <section class="WTS-container">
+        <div class="RB">
+            <div class="RB-heading">
+                <h3>What our Travelers<span></span>are saying</h3>
+            </div>
+            <div class="RB-m">
+                <div class="MB-rr">
+                    <h2>4.8</h2><br>
+                    <p>1000+ reviews on TripAdvisor.<span></span>
+                        Certificate of Excellence</p>
+                </div>
+                <div class="MB-rr">
+                    <h2>16M</h2><br>
+                    <p> Happy customer</p>
+                </div>
+            </div>
+        </div>
+        <div class="box6"></div>
+        <div class="box7"></div>
+        <div class="box8"></div>
+        <div class="box5">
+            <div class="MB-content">
+                <div class="MB-h">
+                    <h6>Great Work</h6>
+                    <div class="MB-i">
+                        <img src="./assets/SVG.png" alt="#">
+                    </div>
+                </div>
+                <div class="MB-p">
+                    <P>“I think Educrat is the best theme I ever seen this year.<span></span>
+                        Amazing design, easy to customize and a design quality<span></span>
+                        superlative account on its cloud platform for the optimized<span></span>
+                        performance”</P>
+                </div>
+                <hr>
+                <div class="MB-ff">
+                    <div class="MB-fi">
+                        <img src="./assets/image (02).png" alt="#">
+                    </div>
+                    <div class="MB-fm">
+                        <h6>Courtney Henry</h6><span></span>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="WTS-icons">
+            <p class="info">Trusted by all the largest travel brands</p>
+            <div class="img-icons">
+                <div class="II">
+                    <img src="./assets/5.svg.png" alt="#">
+                </div>
+                <div class="II">
+                    <img src="./assets/6.svg.png" alt="#">
+                </div>
+                <div class="II">
+                    <img src="./assets/7.svg.png" alt="#">
+                </div>
+                <div class="II">
+                    <img src="./assets/8.svg.png" alt="#">
+                </div>
+                <div class="II">
+                    <img src="./assets/9.svg.png" alt="#">
+                </div>
+                <div class="II">
+                    <img src="./assets/10.svg.png" alt="#">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Travel-article -->
+    <section class="Travel-article">
+        <div class="TA">
+            <div class="travel-pictures">
+                <div class="TA-heading">
+                    <h2>Travel Article</h2>
+                    <button class="next" id="nextBtn"><a href="index1.html">Next</a></button>
+                </div>
+                <div class="TA-cards">
+                    <div class="TAC-item1">
+                        <div class="TAC-items">
+                            <div class="TA-img">
+                                <img src="./assets/image (15).png" alt="#">
+                                <div class="box9">
+                                    <p>Trips</p>
+                                </div>
+                            </div>
+                            <div class="DD">
+                                <p>April 06 2023</p>
+                                <hr>
+                                <p>By Ali Tufan</p>
+                            </div>
+                            <h6>Kenya vs Tanzania Safari: The Better African<br>
+                                Safari Experience</h6>
+                        </div>
+                    </div>
+                    <div class="TAC-item1">
+                        <div class="TAC-items">
+                            <div class="TA-img">
+                                <img src="./assets/image (16).png" alt="#">
+                                <div class="box9">
+                                    <p>Trips</p>
+                                </div>
+                            </div>
+                            <div class="DD">
+                                <p>April 07 2023</p>
+                                <hr>
+                                <p>By Emily Johnson</p>
+                            </div>
+                            <h6>Exploring the Serengeti: A Wildlife Adventure</h6>
+                        </div>
+                    </div>
+                    <div class="TAC-item1">
+                        <div class="TAC-items">
+                            <div class="TA-img">
+                                <img src="./assets/image (17).png" alt="#">
+                                <div class="box9">
+                                    <p>Trips</p>
+                                </div>
+                            </div>
+                            <div class="DD">
+                                <p>April 08 2023</p>
+                                <hr>
+                                <p>By Maxwell Rhodes</p>
+                            </div>
+                            <h6>Into the Wild: An Unforgettable Safari Journey</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>         
+    </section>
+
+    <!-- footer -->
+    <footer class="ftr">
+        <div class="ftr-heading">
+            <h6>Speak to our expert at<span>1-800-453-6744</span></h6>
+            <p>Follow Us</p>
+        </div>
+        <div class="ftr-items">
+            <div class="FCI">
+                <h6>Contact</h6><br>
+                <p>328 Queensberry Street,North Melbourne VIC3051,
+                <span></span>Australia.</p><br>
+                <P>hi@viatours.com</P>
+            </div>
+            <div class="FCI">
+                <h6>Company</h6><br>
+                <p>About Us</p><br>
+                <p>Tourz Reviews</p><br>
+                <p>Contact Us</p><br>
+                <p>Travel Guides</p><br>
+                <P>Data Policy</P><br>
+                <P>Cookie Policy</P><br>
+                <P>Legal</P><br>
+                <P>Sitemap</P>
+            </div>
+            <div class="FCI">
+                <h6>Support</h6><br>
+                <p>Get in Touch</p><br>
+                <p>Help center</p><br>
+                <p>Live chat</p><br>
+                <p>How it works</p>
+            </div>
+            <div class="FCI">
+                <h6>Newsletter</h6><br>
+                <p>Subscribe to the free newsletter and stay<span></span>
+                    up to date</p><br>
+                    <div class="box3">
+                        <a>Your email address</a>
+                        <p>Send</p>
+                    </div><br>
+                <div class="ftrI">
+                    <h6>Mobile Apps</h6><br>
+                    <p>iOS App</p><br>
+                    <p>Android App</p>
+                </div>
+            </div>
+        </div> 
+    </footer>
+    <div class="ftr-bottom">
+        <p>© Copyright Viatours 2024</p>
+        <div class="fter-imgs">
+            <img src="./assets/footer.png"  alt="#">
+            <img src="./assets/footer (1).png"  alt="#">
+            <img src="./assets/footer (2).png"  alt="#">
+            <img src="./assets/footer (3).png"  alt="#">
+            <img src="./assets/footer (4).png"  alt="#">
+            <img src="./assets/footer (5).png"  alt="#">
+        </div>
+    </div>
+
+</section>
+    <script src="./app.js"></script>
+    </body>
+</html>
